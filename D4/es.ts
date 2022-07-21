@@ -9,7 +9,7 @@ class Abbigliamento {
  }
 
  getAcquistoCapo(){
-   return (this.prezzoivainclusa - this.getSaldoCapo()).toFixed() 
+   return (this.prezzoivainclusa - this.getSaldoCapo()).toFixed(2) 
  }
 }
 

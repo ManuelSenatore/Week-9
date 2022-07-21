@@ -52,7 +52,7 @@ var Abbigliamento = /** @class */ (function () {
         return this.prezzoivainclusa * (this.saldo / 100);
     };
     Abbigliamento.prototype.getAcquistoCapo = function () {
-        return (this.prezzoivainclusa - this.getSaldoCapo()).toFixed();
+        return (this.prezzoivainclusa - this.getSaldoCapo()).toFixed(2);
     };
     return Abbigliamento;
 }());
