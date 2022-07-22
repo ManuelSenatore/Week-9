@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
